@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './style.css';
 
 function Header() {
   return (
@@ -10,6 +10,7 @@ function Header() {
      <h1>Don't Click Twice</h1>
      <h3>Test your memory</h3>
      <h5>Click on each image once to earn points</h5>
+    
         </p>
      
       </header>

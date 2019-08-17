@@ -1,13 +1,18 @@
 import React from 'react';
 import Header from "./Components/Header";
-// import logo from './logo.svg';
+import Nav from "./Components/Nav";
+import Photos from "./Components/Photos";
+
 import './App.css';
 
 function App() {
   return (
-    <div>
-<Header />
-    </div>
+   <div>
+      <Nav />
+     <Header />
+     <Photos />
+
+   </div>
   )
 
 
